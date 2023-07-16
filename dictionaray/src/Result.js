@@ -19,7 +19,9 @@ const Result = () => {
 
                 <div className="details synonyms">
                     <h3>Synonyms</h3>
-                    <span>greeting, greeting, greeting</span>
+                    <span>greeting,</span>
+                    <span>greeting,</span>
+                    <span>greeting,</span>
                 </div>
             
             
