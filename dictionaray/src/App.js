@@ -9,6 +9,16 @@ const App = () => {
   const [text, setText] = useState("");
   const [isSpeaking, setIsSpeaking] = useState("");
 
+  const dictionaryApi = (text) => {
+    let url = ``
+  }
+
+  useEffect(() => {
+    if(!text.trim()) return;
+
+    dictionaryApi(text)
+  }, [])
+
   const startSpeech = (text) => {
     const utterance = new SpeechSynthesisUtterance(text);
     const voice = voices.find((voice) => voice.name === voiceSelected);
